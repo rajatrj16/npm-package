@@ -2,13 +2,15 @@
 
 First npm-package and register locally
 
+_Make sure you already have installed nodejs and npm_
+
 clone the repo: using `git clone git@github.com:rajatrj16/npm-package.git`
 
 Here I have created two dir `my-registry` and `my-registry-testing` 
 
 _Below commands will help you creating your own package_
 
-> cd npm-package
+> cd npm-package/my-registry-testing
 
 > npm install ~/npm-package/my-registry
 
