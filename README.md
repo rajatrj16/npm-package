@@ -1,4 +1,4 @@
-# Create first npm package
+# Create your first npm package
 
 First npm-package and register locally
 
