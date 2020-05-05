@@ -12,8 +12,8 @@ _Below commands will help you creating your own package_
 
 > cd npm-package/my-registry-testing
 
-> npm install npm-package/my-registry
+> npm install ../my-registry
 
-> node my-registry-testing/app.js
+> node app.js
 
 **Know more indepth at [HERE](https://dev.to/therealdanvega/creating-your-first-npm-package-2ehf)**
