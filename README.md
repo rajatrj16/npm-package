@@ -12,7 +12,7 @@ _Below commands will help you creating your own package_
 
 > cd npm-package/my-registry-testing
 
-> npm install ~/npm-package/my-registry
+> npm install npm-package/my-registry
 
 > node my-registry-testing/app.js
 
