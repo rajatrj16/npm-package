@@ -1,8 +1,12 @@
 {
-  "name": "my-registry",
+  "name": "@rajatrj16/my-registry",
   "version": "1.0.0",
   "description": "test-registry",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajatrj16/npm-package.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
