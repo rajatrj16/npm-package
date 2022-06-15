@@ -24,7 +24,7 @@ _Below commands will help you creating your own package_
 ### Step 1: Configuring the destination repository
 If you don't provide the `repository` key in your package.json file, then GitHub Packages publishes a package in the GitHub repository you specify in the `name` field of the package.json file. For example, a package named `@rajatrj16/my-registry-testing` is published to the `rajatrj16/my-registry-testing` GitHub repository.
 
-However, if you do provide the `repository` key, then the repository in that key is used as the destination npm registry for GitHub Packages. For example, publishing the below package.json results in a package named `my-registry-testing` published to the `rajatrj16/template-library-node` GitHub repository.
+However, if you do provide the `repository` key, then the repository in that key is used as the destination npm registry for GitHub Packages. For example, publishing the below package.json results in a package named `my-registry-testing` published to the `rajatrj16/npm-package` GitHub repository.
 ```  
 {
   "name": "@rajatrj16/my-registry-testing",
@@ -33,10 +33,10 @@ However, if you do provide the `repository` key, then the repository in that key
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rajatrj16/template-library-node.git"
+    "url": "https://github.com/rajatrj16/npm-package.git"
   },
   // If you want to use local `.npmrc` you should comment below publishconfig content.
-  "homepage": "https://github.com/rajatrj16/template-library-node#readme",
+  "homepage": "https://github.com/rajatrj16/npm-package#readme",
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/"
   }
